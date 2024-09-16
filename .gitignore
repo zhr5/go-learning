@@ -1,0 +1,31 @@
+# .gitignore for Go projects
+
+# Build artifacts
+_dist/
+_build/
+_out/
+bin/
+obj/
+pkg/
+
+# Test binary and results
+.test
+_test.log
+_test_time.out
+
+# Dependency management
+vendor/
+.go-work/
+go.mod~
+go.sum~
+
+# IDEs and editors
+.idea/
+*.swo
+*.swp
+*.swx
+*.sublime-workspace
+.DS_Store
+
+# OS generated files
+Thumbs.db
